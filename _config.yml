@@ -1,8 +1,8 @@
 # Site settings
-title: bcbz Blog
-SEOTitle: 憨小呆的博客 | bcbz Blog
+title: bcbz
+SEOTitle: 憨小呆的博客 | bcbz
 header-img: img/home-bg-art.jpg
-email: bcbz.me@gmail.com
+email: bcyz070609@live.com
 description: "Every failure is leading towards success."
 keyword: "bcbz, bcbz Blog, 憨小呆的博客"
 url: "http://bcbz.github.io"              # your host, for absolute URL
@@ -100,15 +100,9 @@ service-worker: true
 friends: [
     {
         title: "Findro",
-        href: "https://findor.me/bcbz"
+        href: "https://findor.me/bcbz_"
     },{
-        title: "Telegram",
-        href: "https://t.me/bcbz"
-    },{
-        title: "Apple",
-        href: "https://apple.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "ricebai",
+        href: "https://ricebai.github.io"
     }
 ]
