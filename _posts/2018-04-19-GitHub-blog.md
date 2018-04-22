@@ -3,7 +3,7 @@ layout:     post
 title:      GitHub 搭建个人博客
 subtitle:   学习用 GitHub 与 Jekyll 搭建的 个人博客
 date:       2018-04-19
-author:     ricebai
+author:     bcbz
 header-img: img/posts/github-blog/post-bg-debug.png
 catalog: true
 tags:
@@ -19,7 +19,7 @@ tags:
 
 ### 创建一个库
 
-<img src="https://ricebai.github.io/img/posts/github-blog/create_repository.jpg" />
+<img src="https://bcbz.github.io/img/posts/github-blog/create_repository.jpg" />
 
 在 GitHub 上创建一个存储库，用于存放你的博客项目
 
@@ -27,7 +27,7 @@ tags:
 
 打开浏览器，输入 `github name`.github.io
 
-（如：我的 github 名字是 ricebai ，访问路径就是 [ricebai.github.io](https://ricebai.github.io)）
+（如：我的 github 名字是 bcbz ，访问路径就是 [bcbz.github.io](https://bcbz.github.io)）
 
 进行到这里，你的博客第一个简易的页面就创建出来了，将会在页面看到你编写 index.html 内容。👍
 
@@ -65,7 +65,7 @@ jekyll 目录结构
 
 进入我的仓库，选择 `settings` -> `Options`：
 
-<img src="https://ricebai.github.io/img/posts/github-blog/choose_theme.jpg" />
+<img src="https://bcbz.github.io/img/posts/github-blog/choose_theme.jpg" />
 
 可以参考：[jekyll](http://jekyll.com.cn/)
 

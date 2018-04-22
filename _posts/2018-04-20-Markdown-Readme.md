@@ -3,7 +3,7 @@ layout:     post
 title:      Markdown 语法
 subtitle:   Markdown 语法官方说明简体中文版
 date:       2018-04-20
-author:     ricebai
+author:     bcbz
 header-img: img/posts/markdown-readme/post-bg-coffee.jpg
 catalog: true
 tags:
