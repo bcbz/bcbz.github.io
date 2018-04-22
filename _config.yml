@@ -17,10 +17,10 @@ sidebar-avatar: /img/about-bcbz.jpg      # use absolute URL, seeing it's used in
 
 # SNS settings
 RSS: false
-weibo_username:     bcbz
+#weibo_username:     bcbz
 #zhihu_username:     bcbz
 github_username:    bcbz
-twitter_username:   bcbz
+#twitter_username:   bcbz
 #facebook_username:  bcbz
 # linkedin_username:  firstname-lastname-idxxxx
 
