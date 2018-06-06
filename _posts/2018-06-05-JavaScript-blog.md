@@ -12,9 +12,11 @@ tags:
 ---
 ## 描述
 ##### 创建数组
+
     [element0, element1, ..., elementN]
     new Array(element0, element1[, ...[, elementN]])
     new Array(arrayLength)
+
 ``arrayLength`` 支持一个范围在 0 到 232-1 之间的整数。
 
 ##  JavaScript 内置对象（Array）
@@ -83,17 +85,17 @@ tags:
 
 - ``Array.prototype`` 属性表示 ``Array`` 构造函数的原型，并允许您向所有Array对象添加新的属性和方法。
 
-    /*
-       如果JavaScript本身不提供 first() 方法，
-       添加一个返回数组的第一个元素的新方法。
-    */
-    if(!Array.prototype.first) {
+      /*
+        如果JavaScript本身不提供 first() 方法，
+        添加一个返回数组的第一个元素的新方法。
+      */
+      if(!Array.prototype.first) {
         Array.prototype.first = function() {
-            return this[0];
+          return this[0];
         }
-    }
-    var array = ['0','1','2'];
-    console.log(array.first());//0
+      }
+      var array = ['0','1','2'];
+      console.log(array.first());//0
 
 - ``Array.prototype.constructor``  
 所有的数组实例都继承了这个属性，返回对创建此对象的数组函数的引用。
