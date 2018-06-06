@@ -36,7 +36,7 @@ var array = new Array('1','2','3');
 var array = new Array(20);
 ```
 ``arrayLength`` 支持一个范围在 0 到 232-1 之间的整数。
-###目录
+### 目录
 * [属性](#property)
   * [Array.length](#length)
   * [Array.prototype](#prototype)
