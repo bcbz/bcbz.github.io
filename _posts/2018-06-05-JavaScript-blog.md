@@ -67,7 +67,7 @@ var array = new Array(20);
 ---
 | 兼容性 | IE | Chrome | Edge | Firefox | Opera | Safari |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [length](#length)| Yes| Yes | Yes | 1 | Yes| Yes |
+| [length](#length) | Yes| Yes | Yes | 1 | Yes| Yes |
 | [prototype](#prototype) | Yes| Yes | Yes | 1 | Yes| Yes |
 | [slice](#slice) | Yes | Yes | Yes | 1 | Yes| Yes |
 | [toLocaleString](#toLocaleString) | Yes | Yes | Yes | 1 | Yes| Yes |
