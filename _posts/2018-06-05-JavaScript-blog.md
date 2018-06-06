@@ -65,6 +65,7 @@ var array = new Array(20);
   * [Array.some()](#some)
 
 ---
+
 | 兼容性 | IE | Chrome | Edge | Firefox | Opera | Safari |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [length](#length) | Yes | Yes | Yes | 1 | Yes | Yes |
@@ -100,8 +101,6 @@ var array = new Array(20);
 | [includes](#includes) | ``No`` | 47 | 14 | 43 | 34 | 9 |
 | [keys](#keys) | ``No`` | 38 | Yes | 28 | 25 | 8 |
 | [of](#of) | ``No`` | 45 | Yes | 25 | Yes | 9 |
-
-
 
 ---
 <a id="property"></a>
