@@ -10,8 +10,10 @@ tags:
     - JavaScript
     - Array
 ---
-## 描述
-##### 创建数组
+
+##  JavaScript 内置对象（Array）
+### 描述
+#### 创建数组
 ```JavaScript
 /*
   数组字面量表示法
@@ -35,7 +37,6 @@ var array = new Array(20);
 ```
 ``arrayLength`` 支持一个范围在 0 到 232-1 之间的整数。
 
-##  JavaScript 内置对象（Array）
 * [属性](#property)
   * [Array.length](#length)
   * [Array.prototype](#prototype)
@@ -154,18 +155,18 @@ console.log(array.first());//0
 
 | 兼容性 | IE | Chrome | Edge | Firefox | Opera | Safari |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [slice](#slice)| Yes | Yes | Yes | 1 | Yes| Yes |
-| [toLocaleString](#toLocaleString)| Yes | Yes | Yes | 1 | Yes| Yes |
-| [toString](#toString)| Yes | Yes | Yes | 1 | Yes| Yes |
-| [concat](#concat)| 5.5 | 1 | Yes | 1 | Yes| Yes |
-| [join](#join)| 5.5 | 1 | Yes | 1 | Yes| Yes |
-| [pop](#pop)| 5.5 | 1 | Yes | 1 | Yes| Yes |
-| [push](#push)| 5.5 | 1 | Yes | 1 | Yes| Yes |
-| [reverse](#reverse)| 5.5 | 1 | Yes | 1 | Yes| Yes |
-| [shift](#shift)| 5.5 | 1 | Yes | 1 | Yes| Yes |
-| [sort](#sort)| 5.5 | 1 | Yes | 1 | Yes| Yes |
-| [splice](#splice)| 5.5 | 1 | Yes | 1 | Yes| Yes |
-| [unshift](#unshift)| 5.5 | 1 | Yes | 1 | Yes| Yes |
+| [slice](#slice) | Yes | Yes | Yes | 1 | Yes| Yes |
+| [toLocaleString](#toLocaleString) | Yes | Yes | Yes | 1 | Yes| Yes |
+| [toString](#toString) | Yes | Yes | Yes | 1 | Yes| Yes |
+| [concat](#concat) | 5.5 | 1 | Yes | 1 | Yes| Yes |
+| [join](#join) | 5.5 | 1 | Yes | 1 | Yes| Yes |
+| [pop](#pop) | 5.5 | 1 | Yes | 1 | Yes| Yes |
+| [push](#push) | 5.5 | 1 | Yes | 1 | Yes| Yes |
+| [reverse](#reverse) | 5.5 | 1 | Yes | 1 | Yes| Yes |
+| [shift](#shift) | 5.5 | 1 | Yes | 1 | Yes| Yes |
+| [sort](#sort) | 5.5 | 1 | Yes | 1 | Yes| Yes |
+| [splice](#splice) | 5.5 | 1 | Yes | 1 | Yes| Yes |
+| [unshift](#unshift) | 5.5 | 1 | Yes | 1 | Yes| Yes |
 | [every](#every) | 9 | Yes | Yes | 1.5 | Yes | Yes |
 | [filter](#filter) | 9 | Yes | Yes | 1.5 | Yes | Yes |
 | [forEach](#forEach) | 9 | Yes | Yes | 1.5 | Yes | Yes |
@@ -185,6 +186,7 @@ console.log(array.first());//0
 | [includes](#includes) | <font color=red>No</font> | 47 | 14 | 43 | 34 | 9 |
 | [keys](#keys) | <font color=red>No</font> | 38 | Yes | 28 | 25 | 8 |
 | [of](#of) | <font color=red>No</font> | 45 | Yes | 25 | Yes | 9 |
+
 ---
 <a id="slice"></a>
 #### Array.slice()
