@@ -99,7 +99,7 @@ var array = new Array(20);
 - ``length``属性的属性特性
 
 | 特性 | 默认值 |
-| :-: | :-: | :-: |
+| :-: | :-: |
 | Configurable | false |
 | Enumerable | false |
 | writable | true |
@@ -127,7 +127,7 @@ var array = new Array(20);
 - ``prototype``属性的属性特征
 
 | 特征 | 默认值 |
-| :-: | :-: | :-: |
+| :-: | :-: |
 | Configurable | False |
 | Enumerable | False |
 | writable | False |
