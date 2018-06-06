@@ -10,14 +10,12 @@ tags:
     - JavaScript
     - Array
 ---
-## 描述 #
-##### 创建数组 #
-
+## 描述
+##### 创建数组
     [element0, element1, ..., elementN]
     new Array(element0, element1[, ...[, elementN]])
     new Array(arrayLength)
-
-__arrayLength:__ 支持一个范围在 0 到 232-1 之间的整数。
+``arrayLength`` 支持一个范围在 0 到 232-1 之间的整数。
 
 ##  JavaScript 内置对象（Array）
 * [属性](#property)
@@ -57,25 +55,25 @@ __arrayLength:__ 支持一个范围在 0 到 232-1 之间的整数。
 
 - ``length`` 属性的值是一个 0 到 2^32-1 的整数。
 
-    //Uncaught RangeError: Invalid array length;
-    var array = new Array(4294967296);//2^32 = 4294967296
+      //Uncaught RangeError: Invalid array length;
+      var array = new Array(4294967296);//2^32 = 4294967296
 
 - 可以通过设置 ``length`` 属性的值来截取数组，或扩展数组。但是， ``length``  属性不一定表示数组中定义值的个数。
 
-    var array = ['0','1','2'];
-    array.length = 2;
-    console.log(array);//['0','1']
+      var array = ['0','1','2'];
+      array.length = 2;
+      console.log(array);//['0','1']
 
-    array.length = 5;
-    console.log(array);//['0','1',undefined,undefined,undefined]
+      array.length = 5;
+      console.log(array);//['0','1',undefined,undefined,undefined]
 
-    array.length = 1;//['0']
-    array[5] = '5';
-    console.log(array);//['0',undefined,undefined,undefined,undefined,'5']
+      array.length = 1;//['0']
+      array[5] = '5';
+      console.log(array);//['0',undefined,undefined,undefined,undefined,'5']
 
 <a id="prototype"></a>
 #### Array.prototype
-1. ``prototype``属性的属性特征
+- ``prototype``属性的属性特征
 
 | 特征 | 默认值 |
 | :-: | :-: | :-: |
@@ -83,7 +81,7 @@ __arrayLength:__ 支持一个范围在 0 到 232-1 之间的整数。
 | Enumerable | false |
 | writable | false |
 
-``Array.prototype`` 属性表示 ``Array`` 构造函数的原型，并允许您向所有Array对象添加新的属性和方法。
+- ``Array.prototype`` 属性表示 ``Array`` 构造函数的原型，并允许您向所有Array对象添加新的属性和方法。
 
     /*
        如果JavaScript本身不提供 first() 方法，
@@ -97,5 +95,5 @@ __arrayLength:__ 支持一个范围在 0 到 232-1 之间的整数。
     var array = ['0','1','2'];
     console.log(array.first());//0
 
-``Array.prototype.constructor``  
+- ``Array.prototype.constructor``  
 所有的数组实例都继承了这个属性，返回对创建此对象的数组函数的引用。
