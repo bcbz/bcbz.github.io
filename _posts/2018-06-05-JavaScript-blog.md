@@ -65,11 +65,43 @@ var array = new Array(20);
   * [Array.some()](#some)
 
 ---
-
-| 兼容性 | Chrome | Edge | Firefox | IE | Opera | Safari |
+| 兼容性 | IE | Chrome | Edge | Firefox | Opera | Safari |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [length](#length)| Yes| Yes | 1 | yes | Yes| Yes |
-| [prototype](#prototype) | Yes| Yes | 1 | Yes | Yes| Yes |
+| [length](#length)| Yes| Yes | Yes | 1 | Yes| Yes |
+| [prototype](#prototype) | Yes| Yes | Yes | 1 | Yes| Yes |
+| [slice](#slice) | Yes | Yes | Yes | 1 | Yes| Yes |
+| [toLocaleString](#toLocaleString) | Yes | Yes | Yes | 1 | Yes| Yes |
+| [toString](#toString) | Yes | Yes | Yes | 1 | Yes| Yes |
+| [concat](#concat) | 5.5 | 1 | Yes | 1 | Yes| Yes |
+| [join](#join) | 5.5 | 1 | Yes | 1 | Yes| Yes |
+| [pop](#pop) | 5.5 | 1 | Yes | 1 | Yes| Yes |
+| [push](#push) | 5.5 | 1 | Yes | 1 | Yes| Yes |
+| [reverse](#reverse) | 5.5 | 1 | Yes | 1 | Yes| Yes |
+| [shift](#shift) | 5.5 | 1 | Yes | 1 | Yes| Yes |
+| [sort](#sort) | 5.5 | 1 | Yes | 1 | Yes| Yes |
+| [splice](#splice) | 5.5 | 1 | Yes | 1 | Yes| Yes |
+| [unshift](#unshift) | 5.5 | 1 | Yes | 1 | Yes| Yes |
+| [every](#every) | 9 | Yes | Yes | 1.5 | Yes | Yes |
+| [filter](#filter) | 9 | Yes | Yes | 1.5 | Yes | Yes |
+| [forEach](#forEach) | 9 | Yes | Yes | 1.5 | Yes | Yes |
+| [indexOf](#indexOf) | 9 | Yes | Yes | 1.5 | Yes | Yes |
+| [isArray](#isArray) | 9 | 5 | Yes | 4 | 10.5 | 5 |
+| [lastIndexOf](#lastIndexOf) | 9 | Yes | Yes | 1.5 | Yes | Yes |
+| [map](#map) | 9 | Yes | Yes | 1.5 | Yes | Yes |
+| [reduce](#reduce) | 9 | Yes | Yes | 3 | 10.5 | 4 |
+| [reduceRight](#reduceRight) | 9 | Yes | Yes | 3 | 10.5 | 4 |
+| [some](#some) | 9 | Yes | Yes | 1.5 | Yes | Yes |
+| [copyWithin](#copyWithin) | ``No`` | 45 | 12 | 32 | 32 | 9 |
+| [entries](#entries) | ``No`` | 38 | Yes | 28 | 25 | 8 |
+| [fill](#fill) | ``No`` | 45 | Yes | 31 | Yes | 8 |
+| [find](#find) | ``No`` | 45 | Yes | 25 | Yes | 8 |
+| [findIndex](#findIndex) | ``No`` | 45 | Yes | 25 | Yes | 8 |
+| [from](#from) | ``No`` | 45 | Yes | 32 | Yes | 9 |
+| [includes](#includes) | ``No`` | 47 | 14 | 43 | 34 | 9 |
+| [keys](#keys) | ``No`` | 38 | Yes | 28 | 25 | 8 |
+| [of](#of) | ``No`` | 45 | Yes | 25 | Yes | 9 |
+
+
 
 ---
 <a id="property"></a>
@@ -153,41 +185,6 @@ console.log(array.first());//0
 <a id="method"></a>
 ### 方法
 
-| 兼容性 | IE | Chrome | Edge | Firefox | Opera | Safari |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [slice](#slice) | Yes | Yes | Yes | 1 | Yes| Yes |
-| [toLocaleString](#toLocaleString) | Yes | Yes | Yes | 1 | Yes| Yes |
-| [toString](#toString) | Yes | Yes | Yes | 1 | Yes| Yes |
-| [concat](#concat) | 5.5 | 1 | Yes | 1 | Yes| Yes |
-| [join](#join) | 5.5 | 1 | Yes | 1 | Yes| Yes |
-| [pop](#pop) | 5.5 | 1 | Yes | 1 | Yes| Yes |
-| [push](#push) | 5.5 | 1 | Yes | 1 | Yes| Yes |
-| [reverse](#reverse) | 5.5 | 1 | Yes | 1 | Yes| Yes |
-| [shift](#shift) | 5.5 | 1 | Yes | 1 | Yes| Yes |
-| [sort](#sort) | 5.5 | 1 | Yes | 1 | Yes| Yes |
-| [splice](#splice) | 5.5 | 1 | Yes | 1 | Yes| Yes |
-| [unshift](#unshift) | 5.5 | 1 | Yes | 1 | Yes| Yes |
-| [every](#every) | 9 | Yes | Yes | 1.5 | Yes | Yes |
-| [filter](#filter) | 9 | Yes | Yes | 1.5 | Yes | Yes |
-| [forEach](#forEach) | 9 | Yes | Yes | 1.5 | Yes | Yes |
-| [indexOf](#indexOf) | 9 | Yes | Yes | 1.5 | Yes | Yes |
-| [isArray](#isArray) | 9 | 5 | Yes | 4 | 10.5 | 5 |
-| [lastIndexOf](#lastIndexOf) | 9 | Yes | Yes | 1.5 | Yes | Yes |
-| [map](#map) | 9 | Yes | Yes | 1.5 | Yes | Yes |
-| [reduce](#reduce) | 9 | Yes | Yes | 3 | 10.5 | 4 |
-| [reduceRight](#reduceRight) | 9 | Yes | Yes | 3 | 10.5 | 4 |
-| [some](#some) | 9 | Yes | Yes | 1.5 | Yes | Yes |
-| [copyWithin](#copyWithin) | ``No`` | 45 | 12 | 32 | 32 | 9 |
-| [entries](#entries) | ``No`` | 38 | Yes | 28 | 25 | 8 |
-| [fill](#fill) | ``No`` | 45 | Yes | 31 | Yes | 8 |
-| [find](#find) | ``No`` | 45 | Yes | 25 | Yes | 8 |
-| [findIndex](#findIndex) | ``No`` | 45 | Yes | 25 | Yes | 8 |
-| [from](#from) | ``No`` | 45 | Yes | 32 | Yes | 9 |
-| [includes](#includes) | ``No`` | 47 | 14 | 43 | 34 | 9 |
-| [keys](#keys) | ``No`` | 38 | Yes | 28 | 25 | 8 |
-| [of](#of) | ``No`` | 45 | Yes | 25 | Yes | 9 |
-
----
 <a id="slice"></a>
 #### Array.slice()
 - ``slice()`` 方法返回一个从开始到结束（不包括结束）选择的数组的一部分浅拷贝到一个新数组对象。且原始数组不会被修改。
